@@ -4,14 +4,18 @@
     <link name="link">      
       <pose>0 0 0 0 0 0</pose>
       <inertial>
-        <mass>12</mass>
+        <origin>
+          <xyz>0.10608 -0.0022763 0.48772 </xyz>
+          <rpy>0 0 0 </rpy>
+        </origin>
+        <mass>147640</mass>
         <inertia>
-          <ixx>1.</ixx>
-          <ixy>1</ixy>
-          <ixz>1</ixz>
-          <iyy>1.</iyy>
-          <iyz>1</iyz>
-          <izz>1.</izz>
+          <ixx>418650</ixx>
+          <ixy>2.8949E-06</ixy>
+          <ixz>-1.2868E-06</ixz>
+          <iyy>418650</iyy>
+          <iyz>1.5599E-05</iyz>
+          <izz>800610</izz>
         </inertia>
       </inertial>
       <collision name="collision">
@@ -23,6 +27,11 @@
         
       </collision>
       <visual name="visual">
+        <material>
+          <ambient>0.5 0.5 0.5 0.1"</ambient>
+          <diffuse>0.5 0.5 0.5 0.5</diffuse>
+          <emissive>0.8 0.2 0.2 1</emissive>
+        </material>
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
